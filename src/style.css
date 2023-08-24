@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root{
+    --black: #333;
+    --light-color: #cdaa7c;
+    --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* Styling navbar starts */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--black);
+    padding: 1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: var(--box-shadow);
+    z-index: 10000;
+}
+
+header .logo{
+    height: auto;
+    color: aquamarine;
+}
+
+header .navbar a{
+    font-size: 1.7rem;
+    padding: .5rem 1.5rem;
+    color: var(--light-color);
+    border: .1rem solid transparent;
+}
+
+header .navbar a.active,
+header .navbar a:hover{
+    color: #fff;
+    border: .1rem solid rgba(205, 170, 124, 0.2);
+}
+
+/* Styling navbar ends */
+
+/* Styling Home Section starts */
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1468817739446-479f000a4c0f?ixid=M3w0NzYzMDB8MHwxfHNlYXJjaHw1fHxtZXRlb3JpdGV8ZW58MHx8fHwxNjkxOTQ3NDYyfDA&ixlib=rb-4.0.3);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling Home Section ends */
+
+/* Styling "Search Meteorite" starts */
+
+.search {
+    width: 375px;
+    height: 520px;
+    background: #5e8bc3;
+    opacity: .7;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* .fas, #search {
+    font-size: 1.7rem;
+} */
+
+.search form {
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search form input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    border-radius: 15px;
+    width: 100%;
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding: 8px 0;
+}
+
+.search form i {
+    padding: 0 10px;
+    font-size: 2rem;
+}
+
+/* Styling "Search Meteorite" ends */
