@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"  -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fireball Project</title>
+
+  <!-- used cdn font awesome to use the required icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+
+  <!-- Custom CSS file link -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Jquery cdn -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+  <!-- Jquery table manager -->
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+
+</head>
+
+<body>
+  <!-- Header section starts -->
+  <header>
+    <a href="#" class="logo"><img src="Media/fireball_newe.png" alt="logo"></a>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#details">Meteorite Details</a>
+      <a href="#team">Team</a>
+    </nav>
+
+    <div class="icons">
+      <i class="fas fa-bars" id="menu"></i>
+      <i class="fas fa-heart"></i>
+  </div>
+
+  </header>
+  <!-- Header section ends -->
+
+  <main>
+
+    <!-- Image Gallary Starts -->
+
+    <section id="home">
+      <div class="container_home">
+        <div class="card_home">
+          <img src="Media/meteorites_fig1.jpg">
+          <div class="card__head">Iron Meteorite</div>
+        </div>
+        <div class="card_home">
+          <img
+            src="Media/meteorites_fig2.jpg">
+          <div class="card__head">Stony-Iron Meteorite</div>
+        </div>
+        <div class="card_home">
+          <img
+            src="Media/meteorites_fig3.jpg">
+          <div class="card__head">Iron-Nickel Meteorite</div>
+        </div>
+        <div class="card_home">
+          <img
+            src="Media/meteorites_fig4.jpg">
+          <div class="card__head">Chondrite Meteorite</div>
+        </div>
+        <div class="card_home">
+          <img src="Media/meteorites_fig5.jpg">
+          <div class="card__head">Angrite Meteorite</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Image Gallary Ends -->
+
+    <hr>
+
+    <!-- Searching and sorting table Starts -->
+
+    <section id="details">
+      <h1 id="met_heading">Meteorite Details</h1>
+      <hr>
+      <table id="meteor_table" class="table table-striped">
+        <thead>
+          <tr>
+            <th rowspan="2" class="sort">Name </th>
+            <th rowspan="2" class="sort">Id </th>
+            <th rowspan="2" class="sort">Rec-class </th>
+            <th rowspan="2" class="sort">Mass </th>
+            <th rowspan="2" class="sort">Year </th>
+            <th colspan="2" id="geo">Geo-Location</th>
+          </tr>
+          <tr>
+            <th>Latitude</th>
+            <th>Longitude</th>
+          </tr>
+        </thead>
+        <tbody id="table_body">
+
+        </tbody>
+      </table>
+    </section>
+
+     <!-- Searching and sorting table Ends -->
+
+
+    <!-- Team Members Start -->
+
+    <section class="our-team" id="team">
+      <h1 class="heading">We are the team</h1>
+      <h3 class="sub-heading"> ~ Chingu voyage-45 team-7 ~ </h3>
+
+      <div class="our-coder">
+          <div class="item">
+              <div class="image">
+                  <img src="Media/coder1.jpeg" alt="coder's pic">
+              </div>
+
+              <div class="coder-info">
+                  <div>
+                      <h3>Swastik Chakravorty</h3>
+                      <span>coder</span>
+
+                      <ul>                 
+                          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                          <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+
+          <div class="item">
+              <div class="image">
+                  <img src="Media/coder2.png" alt="coder's pic">
+              </div>
+
+              <div class="coder-info">
+                  <div>
+                      <h3>King Zlo</h3>
+                      <span>coder</span>
+
+                      <ul>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+
+          <div class="item">
+              <div class="image">
+                  <img src="Media/coder3.jpeg" alt="coder's pic">
+              </div>
+
+              <div class="coder-info">
+                  <div>
+                      <h3>Moriah Uxui</h3>
+                      <span>coder</span>
+
+                      <ul>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+
+
+      </div>
+  </section>
+
+  <!-- Team members ends -->
+
+</main>
+
+<footer>
+
+  <p>&copy;2023 Reserved by Chingu Voyage-45 Team-7 Tier-1 Project</p>
+
+  </footer>
+
+  <!-- Jump to top -->
+
+  <a href="#"><button class="topbtn"><i class="fa-solid fa-angle-up"></i></button></a>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

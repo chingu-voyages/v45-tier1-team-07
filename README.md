@@ -1,28 +1,93 @@
-# voyage-tasks
+# ☄️Fireball
 
-Your project's `readme` is as important to success as your code. For 
-this reason you should put as much care into its creation and maintenance
-as you would any other component of the application.
+## 👩🏻‍💻 About the project
 
-If you are unsure of what should go into the `readme` let this article,
-written by an experienced Chingu, be your starting point - 
-[Keys to a well written README](https://tinyurl.com/yk3wubft).
+During the 6-week [Chingu] (https://www.chingu.io/) Voyage 45 in August and September 2023, this app was created. The program utilizes data from the NASA open API (https://data.nasa.gov/resource/gh4g-9sfh.json). This extensive data set comprises details on every known meteorite landing, according to the NASA Open Data Portal.
 
-And before we go there's "one more thing"! Once you decide what to include
-in your `readme` feel free to replace the text we've provided here.
+The goals for this project included:
 
-> Own it & Make it your Own!
+- Utilizing NASA data to develop a front-end-only application.
+- Using Javascript, html, css, other developing tool, or any other libraries to create the app's plans, designs, and code.
+- Strictly avoid using AI-based solution generators like GitHub CoPilot in the app's development.
+- To create a minimum viable product (MVP) that has a landing page with the following information:
+  - The history of meteorite strikes is displayed in a detail data display.
+  - Users' ability to modify a particular data display using search fields
+  - A component of summary metrics that visualizes the data
 
-## Team Documents
+Our team had goals for the application's functionality as well as for gaining experience working with a global, remote team of developers and an UI/UX designer:
 
-You may find these helpful as you work together to organize your project.
+- To try learning required languages and tools to build the application.
+- To coordinate the work of a global, remote team of developers and UI/UX designers.
 
-- [Team Project Ideas](./docs/team_project_ideas.md)
-- [Team Decision Log](./docs/team_decision_log.md)
+## 🧑🏾‍🤝‍🧑🏼 Our hardworking Team
 
-Meeting Agenda templates (located in the `/docs` directory in this repo):
+- [Swastik Chakravorty](https://github.com/swastik-chakravorty)
+- [KingZlo](https://github.com/)
+- [Moriah](https://github.com/)
 
-- Meeting - Voyage Kickoff --> ./docs/meeting-voyage_kickoff.docx
-- Meeting - App Vision & Feature Planning --> ./docs/meeting-vision_and_feature_planning.docx
-- Meeting - Sprint Retrospective, Review, and Planning --> ./docs/meeting-sprint_retrospective_review_and_planning.docx
-- Meeting - Sprint Open Topic Session --> ./docs/meeting-sprint_open_topic_session.docx
+## ✅ Features of the project
+
+- Detailed meteorite data display with search filters
+- A searchable, interactive table of meteorite data
+- Image gallaries of meteorite
+
+## 🔧 Tools & Dependencies
+
+To plan and manage our workflow, we used:
+
+- Figma
+- VS Code
+- Discord channel
+
+To build the application, we used:
+
+- HTML
+- CSS
+- JavaScript
+- jQuery
+- API
+- JSON[package-lock.json] [package.json]
+
+## 🖥️ To run the App
+
+1. Clone this repo.
+
+```
+git clone https://github.com/chingu-voyages/v45-tier1-team-07.git
+```
+
+2. Navigate to the project directory.
+
+```
+https://github.com/chingu-voyages/v45-tier1-team-07
+```
+
+3. Then navigate to the app within the project.
+
+```
+cd fireball
+```
+
+4. Install the dependencies.
+
+```
+npm install
+```
+
+```
+jquery install
+```
+
+## 👀 App Demo
+
+1. Meteorites Gallery
+
+![Gallery Screenshot](".src/Media/Screenshot-3.png")
+
+2. Meteorites Searching and Sorting Table
+
+![Gallery Screenshot](".src/Media/Screenshot-2.png")
+
+3. Team Members
+
+![Gallery Screenshot](".src/Media/Screenshot-1.png")
