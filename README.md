@@ -82,12 +82,12 @@ jquery install
 
 1. Meteorites Gallery
 
-![Gallery Screenshot](".src/Media/Screenshot-3.png")
+<img src="Screenshot-3.png">
 
 2. Meteorites Searching and Sorting Table
 
-![Gallery Screenshot](".src/Media/Screenshot-2.png")
+<img src="Screenshot-2.png">
 
 3. Team Members
 
-![Gallery Screenshot](".src/Media/Screenshot-1.png")
+<img src="Screenshot-1.png">
