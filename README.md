@@ -82,7 +82,7 @@ jquery install
 
 1. Meteorites Gallery
 
-![Gallery Screenshot]("/src/Media/Screenshot-3.png")
+![image]("/src/Media/Screenshot-3.png")
 
 2. Meteorites Searching and Sorting Table
 
