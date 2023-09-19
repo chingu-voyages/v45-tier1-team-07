@@ -82,12 +82,12 @@ jquery install
 
 1. Meteorites Gallery
 
-![Gallery Screenshot]("https://github.com/chingu-voyages/v45-tier1-team-07/blob/main/src/Media/Screenshot-3.png")
+![Gallery Screenshot]("/src/Media/Screenshot-3.png")
 
 2. Meteorites Searching and Sorting Table
 
-![Gallery Screenshot]("https://github.com/chingu-voyages/v45-tier1-team-07/blob/main/src/Media/Screenshot-2.png")
+![Gallery Screenshot]("/src/Media/Screenshot-2.png")
 
 3. Team Members
 
-![Gallery Screenshot]("https://github.com/chingu-voyages/v45-tier1-team-07/blob/main/src/Media/Screenshot-1.png")
+![Gallery Screenshot]("/src/Media/Screenshot-1.png")
