@@ -91,3 +91,5 @@ jquery install
 3. Team Members
 
 <img src="Screenshot-1.png">
+
+You can see [our deployed Fireball app here](https://swastik-chakravorty.github.io/Chingu-Voyage-45-Team-7/).
